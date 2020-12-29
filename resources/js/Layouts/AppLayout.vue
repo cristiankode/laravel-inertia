@@ -17,6 +17,9 @@
                             <jet-nav-link :href="route('dashboard')" :active="route().current('dashboard')">
                                 Dashboard
                             </jet-nav-link>
+                            <jet-nav-link href="/projects" :active="$page.currentRouteName.includes('projects')">
+                                Projects
+                            </jet-nav-link>
                         </div>
                     </div>
 
@@ -121,6 +124,9 @@
                     <jet-responsive-nav-link :href="route('dashboard')" :active="route().current('dashboard')">
                         Dashboard
                     </jet-responsive-nav-link>
+                    <jet-nav-link href="/projects" :active="$page.currentRouteName.includes('projects')">
+                        Projects
+                    </jet-nav-link>
                 </div>
 
                 <!-- Responsive Settings Options -->
