@@ -3044,6 +3044,13 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
 
 
 
@@ -47575,7 +47582,37 @@ var render = function() {
         )
       ]),
       _vm._v(" "),
-      _c("main", [_vm._t("default")], 2),
+      _c(
+        "main",
+        [
+          _vm.$page.flash.success
+            ? _c("div", { staticClass: "py-4" }, [
+                _c(
+                  "div",
+                  { staticClass: "max-w-7xl mx-auto sm:px-6 lg:px-8" },
+                  [
+                    _c(
+                      "div",
+                      {
+                        staticClass:
+                          "bg-green-100 border border-green-400 text-green-700 px-4 py-3 rounded relative",
+                        attrs: { role: "alert" }
+                      },
+                      [
+                        _c("span", { staticClass: "block sm:inline" }, [
+                          _vm._v(_vm._s(_vm.$page.flash.success))
+                        ])
+                      ]
+                    )
+                  ]
+                )
+              ])
+            : _vm._e(),
+          _vm._v(" "),
+          _vm._t("default")
+        ],
+        2
+      ),
       _vm._v(" "),
       _c("portal-target", { attrs: { name: "modal", multiple: "" } })
     ],
@@ -65823,8 +65860,8 @@ window.axios.defaults.headers.common['X-Requested-With'] = 'XMLHttpRequest';
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! /Users/macbookpro/www/laravel-inertia/resources/js/app.js */"./resources/js/app.js");
-module.exports = __webpack_require__(/*! /Users/macbookpro/www/laravel-inertia/resources/css/app.css */"./resources/css/app.css");
+__webpack_require__(/*! /home/cris/www/laravel-inertia/resources/js/app.js */"./resources/js/app.js");
+module.exports = __webpack_require__(/*! /home/cris/www/laravel-inertia/resources/css/app.css */"./resources/css/app.css");
 
 
 /***/ })
